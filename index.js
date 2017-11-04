@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, newCustomer) {
 
   console.log(`Welcome , ${newCustomer}.You are number ${katzDeliLine.length } in line !  `);
 
-  }
+
 }
 
 
