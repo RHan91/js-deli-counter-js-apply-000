@@ -15,7 +15,7 @@ function takeANumber(katzDeliLine, newCustomer) {
 
 
 function nowServing(katzDeliLine){
-  if (katzDeliLine.length <= 0) {
+  if (katzDeliLine.length < 1) {
     console.log("There is nobody waiting to be served!");
   }
   else {
@@ -27,7 +27,7 @@ function nowServing(katzDeliLine){
 
 
 function currentLine(katzDeliLine){
-  if (katzDeliLine.length === 0) {
+  if (katzDeliLine.length < 1) {
     console.log("The line is currently empty.");
   }
   else {
