@@ -3,10 +3,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, newCustomer) {
 
-  if (newCustomer === undefined){
-    console.log("No number was taken");
-  }
-  else {
+  
   katzDeliLine.push(newCustomer);
 
   console.log(`Welcome , ${newCustomer}.You are number ${katzDeliLine.length } in line !  `);
