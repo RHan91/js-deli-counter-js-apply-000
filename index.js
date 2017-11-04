@@ -34,7 +34,7 @@ function currentLine(katzDeliLine){
   }
   else {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      lineStatus = lineStatus + ` ${i + 1}. ` + `${katzDeliLine[i]},`;
+      lineStatus = lineStatus + ` ${i + 1}. ${katzDeliLine[i]},`;
     }
     return lineStatus;
   }
