@@ -15,7 +15,7 @@ function takeANumber(katzDeliLine, newCustomer) {
 
 
 function nowServing(katzDeliLine){
-  if (katzDeliLine.length === 0) {
+  if (katzDeliLine.length < 0) {
     console.log("There is nobody waiting to be served!");
   }
   else {
