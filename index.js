@@ -3,7 +3,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, newCustomer) {
 
-  
+
   katzDeliLine.push(newCustomer);
 
   console.log(`Welcome , ${newCustomer}.You are number ${katzDeliLine.length } in line !  `);
