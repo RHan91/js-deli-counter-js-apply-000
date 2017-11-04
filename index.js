@@ -36,6 +36,8 @@ function currentLine(katzDeliLine){
     for (var i = 0; i < katzDeliLine.length; i++) {
       lineStatus = lineStatus + ` ${i + 1}. ${katzDeliLine[i]},`;
     }
+    lineStatus = lineStatus.slice(0, lineStatus.length -1);
     return lineStatus;
+    
   }
 }
