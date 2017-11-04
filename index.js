@@ -38,6 +38,6 @@ function currentLine(katzDeliLine){
     }
     lineStatus = lineStatus.slice(0, lineStatus.length -1);
     return lineStatus;
-    
+
   }
 }
